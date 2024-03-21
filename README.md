@@ -32,5 +32,3 @@ For any questions, suggestions, or issues related to this repository, feel free 
 - Email: [joao.rafael.henriques@gmail.com](mailto:joao.rafael.henriques@gmail.com)
 - Issues: [Link to repository issues](https://github.com/JoaoRafaelHenriques/CVEDetailsScrapeDataset/issues)
 
----
-This README was created for informational and guidance purposes.
