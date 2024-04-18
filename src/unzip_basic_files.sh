@@ -23,5 +23,5 @@ for table in "${tables[@]}"; do
 
         echo "Unzip $table_path"
         gunzip "$table_path"
-	echo "Success"
+	echo "Success!"
 done
