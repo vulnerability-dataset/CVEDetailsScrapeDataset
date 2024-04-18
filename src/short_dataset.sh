@@ -9,7 +9,8 @@ git remote add -f origin $url
 
 git config core.sparseCheckout true
 
-echo "src" >> .git/info/sparse-checkout
+echo "src/insert_basic_tables.sh" >> .git/info/sparse-checkout
+echo "src/short_dataset.sh" >> .git/info/sparse-checkout
 echo "CREATE_DATABASE.sql.gz" >> .git/info/sparse-checkout
 echo "CWE_INFO.sql.gz" >> .git/info/sparse-checkout
 echo "MODULE_INFO.sql.gz" >> .git/info/sparse-checkout
