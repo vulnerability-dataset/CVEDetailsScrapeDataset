@@ -25,28 +25,12 @@ echo "Inserted VULNERABILITY_CATEGORY"
 $path_mysql/mysql -u root -p < ../SECURITY_ADVISORIES.sql
 echo "Inserted SECURITY_ADVISORIES"
 
-$path_mysql/mysql -u root -p < ../RELACAO_CWES.sql
-echo "Inserted RELACAO_CWES"
-
 $path_mysql/mysql -u root -p < ../PATCHES.sql
 echo "Inserted PATCHES"
-
-$path_mysql/mysql -u root -p < ../HISTORY.sql
-echo "Inserted HISTORY"
 
 $path_mysql/mysql -u root -p < ../MODULE_INFO.sql
 echo "Inserted MODULE_INFO"
 
 $path_mysql/mysql -u root -p < ../SAT.sql
 echo "Inserted SAT"
-
-$path_mysql/mysql -u root -p < ../RULE.sql
-echo "Inserted RULE"
-
-$path_mysql/mysql -u root -p < ../RULE_CWE_INFO.sql
-echo "Inserted RULE_CWE_INFO"
-
-$path_mysql/mysql -u root -p < ../ALERT.sql
-echo "Inserted ALERT"
-
 

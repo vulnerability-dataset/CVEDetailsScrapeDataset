@@ -10,6 +10,8 @@ The dataset is organized into multiple tables to facilitate access and manipulat
 
 The repository is structured as follows:
 
+- **/PM**: This file gives some information in case that the user only wants to use a small  piece of the dataset, as the website uses
+
 - **/\*.sql.gz**: This files contain the information of each table. In some cases, the tables are so big that was necessay divide into multiple parts.
 
 - **/src**: This folder contains useful scripts for data manipulation and processing.
@@ -21,9 +23,10 @@ The repository is structured as follows:
 To use this dataset, you can download the relevant dumps according to your needs. The dumps are available in an accessible format for analysis and processing. After downloading, you should execute the scripts from src directory following the next order:
 1. join_split_files.sh
 2. insert_basic_tables.sh
-3. insert_files_tables.sh
-4. insert_classes_tables.sh
-5. insert_funtions_tables.sh
+3. insert_extra_tables.sh
+4. insert_files_tables.sh
+5. insert_classes_tables.sh
+6. insert_funtions_tables.sh
 
 ## Contact
 
