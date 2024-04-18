@@ -17,9 +17,9 @@ echo "CWE_INFO.sql.gz" >> .git/info/sparse-checkout
 echo "MODULE_INFO.sql.gz" >> .git/info/sparse-checkout
 echo "PATCHES.sql.gz" >> .git/info/sparse-checkout
 echo "VETORES.sql.gz" >> .git/info/sparse-checkout
-echo "REPOSITORIES_SAMPLES.sql.gz" >> .git/info/sparse-checkout
+echo "REPOSITORIES_SAMPLE.sql.gz" >> .git/info/sparse-checkout
 echo "SAT.sql.gz" >> .git/info/sparse-checkout
-echo "SECURITY_ADVISORES.sql.gz" >> .git/info/sparse-checkout
+echo "SECURITY_ADVISORIES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITY_CATEGORY.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES_CWE.sql.gz" >> .git/info/sparse-checkout
