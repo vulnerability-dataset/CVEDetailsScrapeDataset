@@ -9,6 +9,7 @@ git remote add -f origin $url
 
 git config core.sparseCheckout true
 
+echo "src/unzip_basic_files.sh" >> .git/info/sparse-checkout
 echo "src/insert_basic_tables.sh" >> .git/info/sparse-checkout
 echo "src/short_dataset.sh" >> .git/info/sparse-checkout
 echo "CREATE_DATABASE.sql.gz" >> .git/info/sparse-checkout
