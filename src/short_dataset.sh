@@ -22,4 +22,4 @@ echo "SECURITY_ADVISORES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITY_CATEGORY.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES_CWE.sql.gz" >> .git/info/sparse-checkout
-git pull origin master
+git pull origin main

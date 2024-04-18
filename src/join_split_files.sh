@@ -37,21 +37,10 @@ done
 
 # All the rest of the tables
 tables=(
-	CREATE_DATABASE
-        CWE_INFO
         HISTORY
-        MODULE_INFO
-        PATCHES
         RELACAO_CWES
-        REPOSITORIES_SAMPLE
         RULE_CWE_INFO
         RULE
-        SAT
-        SECURITY_ADVISORIES
-        VETORES
-        VULNERABILITY_CATEGORY
-        VULNERABILITIES_CWE
-        VULNERABILITIES
 )
 
 # Loop through every table and unzip

@@ -21,12 +21,13 @@ The repository is structured as follows:
 ## How to Use
 
 To use this dataset, you can download the relevant dumps according to your needs. The dumps are available in an accessible format for analysis and processing. After downloading, you should execute the scripts from src directory following the next order:
-1. join_split_files.sh
-2. insert_basic_tables.sh
-3. insert_extra_tables.sh
-4. insert_files_tables.sh
-5. insert_classes_tables.sh
-6. insert_funtions_tables.sh
+1. unzip_basic_files.sh
+2. join_split_files.sh
+3. insert_basic_tables.sh
+4. insert_extra_tables.sh
+5. insert_files_tables.sh
+6. insert_classes_tables.sh
+7. insert_funtions_tables.sh
 
 ## Contact
 
