@@ -13,6 +13,7 @@ tables=(
         VULNERABILITY_CATEGORY
         VULNERABILITIES_CWE
         VULNERABILITIES
+	DAILY
 )
 
 # Loop through every table and unzip

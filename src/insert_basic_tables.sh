@@ -34,3 +34,5 @@ echo "Inserted MODULE_INFO"
 $path_mysql/mysql -u root -p sw_vulnerability_db < ../SAT.sql
 echo "Inserted SAT"
 
+$path_mysql/mysql -u root -p sw_vulnerability_db < ../DAILY.sql
+echo "Inserted DAILY"

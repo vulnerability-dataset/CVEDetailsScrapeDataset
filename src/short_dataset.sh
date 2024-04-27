@@ -23,4 +23,5 @@ echo "SECURITY_ADVISORIES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITY_CATEGORY.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES.sql.gz" >> .git/info/sparse-checkout
 echo "VULNERABILITIES_CWE.sql.gz" >> .git/info/sparse-checkout
+echo "DAILY.sql.gz" >> .git/info/sparse-checkout
 git pull origin main
