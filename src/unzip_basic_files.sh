@@ -20,6 +20,7 @@ tables=(
 for table in "${tables[@]}"; do
 
         table_name=$(echo "$table")
+	rm "../$table_name.sql"
         table_path="../$table_name.sql.gz"
 
         echo "Unzip $table_path"
