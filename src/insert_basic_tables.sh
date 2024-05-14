@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path_my_sql="<insert_path>"
+path_mysql="<insert_path>"
 password=""
 
 $path_mysql/mysql -u root -p$password < ../CREATE_DATABASE.sql
