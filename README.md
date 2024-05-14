@@ -17,7 +17,7 @@ The repository is structured as follows:
 - **/src**: This folder contains useful scripts for data manipulation and processing.
   - **join_split_files.sh**: A shell script to join the divided parts of the dumps into a single file and unzip all zip files within the dumps directory.
   - **insert_\*.sh**: Scripts to insert the data into a database. 
-
+  - **unzip_basic_files**: Script to unzip the gz files.
 ## How to Use
 
 To use this dataset, you can download the relevant dumps according to your needs. The dumps are available in an accessible format for analysis and processing. After downloading, you should execute the scripts from src directory following the next order:
